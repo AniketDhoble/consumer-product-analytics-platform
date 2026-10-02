@@ -1,0 +1,14 @@
+Category,Check,Before,After,Status
+StructuralValidator,blank_strings,0,0,PASS
+StructuralValidator,column_count,25,26,INFO
+StructuralValidator,duplicate_rows,0,0,PASS
+StructuralValidator,row_count,100000,100000,INFO
+StructuralValidator,total_missing_values,0,0,PASS
+ConsistencyValidator,customer_id_name_inconsistencies,0,0,PASS
+ConsistencyValidator,order_date_after_ship_date,0,0,PASS
+ConsistencyValidator,product_id_name_inconsistencies,0,0,PASS
+ConsistencyValidator,product_id_subcategory_inconsistencies,0,0,PASS
+BusinessValidator,discount_outside_valid_range,0,0,PASS
+BusinessValidator,negative_profit,0,0,PASS
+BusinessValidator,quantity_less_than_or_equal_zero,0,0,PASS
+BusinessValidator,sales_less_than_or_equal_zero,0,0,PASS

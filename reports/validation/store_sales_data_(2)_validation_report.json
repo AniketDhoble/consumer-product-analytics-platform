@@ -1,0 +1,21 @@
+{
+    "StructuralValidator": {
+        "row_count": 100000,
+        "column_count": 26,
+        "total_missing_values": 0,
+        "duplicate_rows": 0,
+        "blank_strings": 0
+    },
+    "ConsistencyValidator": {
+        "order_date_after_ship_date": 0,
+        "customer_id_name_inconsistencies": 0,
+        "product_id_name_inconsistencies": 0,
+        "product_id_subcategory_inconsistencies": 0
+    },
+    "BusinessValidator": {
+        "sales_less_than_or_equal_zero": 0,
+        "quantity_less_than_or_equal_zero": 0,
+        "discount_outside_valid_range": 0,
+        "negative_profit": 0
+    }
+}

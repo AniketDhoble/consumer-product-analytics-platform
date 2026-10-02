@@ -1,0 +1,81 @@
+============================================================
+CONSUMER & PRODUCT ANALYTICS PLATFORM
+PROJECT SETUP
+============================================================
+
+
+PROJECT NAME
+------------------------------------------------------------
+Consumer & Product Analytics Platform
+
+
+PRIMARY TOOLS
+------------------------------------------------------------
+Python
+MySQL
+Power BI
+
+
+PYTHON
+------------------------------------------------------------
+Recommended Version: Python 3.11+
+
+
+DATABASE
+------------------------------------------------------------
+MySQL 8.0+
+
+
+ENVIRONMENT
+------------------------------------------------------------
+Development
+
+
+PROJECT WORKFLOW
+------------------------------------------------------------
+
+1. Business Understanding
+2. Project Setup
+3. Data Understanding
+4. Data Profiling
+5. Data Cleaning
+6. Data Validation
+7. MySQL Database
+8. SQL Business Analysis
+9. KPI Development
+10. Power BI Dashboard
+11. Business Insights
+12. Documentation
+
+
+DATA FLOW
+------------------------------------------------------------
+
+Raw Dataset
+     |
+     v
+Data Understanding
+     |
+     v
+Data Profiling
+     |
+     v
+Data Cleaning
+     |
+     v
+Data Validation
+     |
+     v
+Processed Dataset
+     |
+     v
+MySQL
+     |
+     v
+SQL Analysis
+     |
+     v
+Power BI
+     |
+     v
+Business Insights
