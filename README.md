@@ -69,17 +69,29 @@ Indian Store Dataset
 - Profitability Analysis
 - Business KPIs
 
+## SQL Analysis
+
+The project includes business-focused SQL analysis covering:
+
+- Sales performance
+- Customer performance
+- Product performance
+- Regional performance
+- Monthly performance
+- Discount and profitability analysis
+- Business KPI analysis
+
+Five MySQL analytical views were also created for reusable reporting.
+
 ## Project Structure
 
-- `datasets/raw/` — Original source data
-- `datasets/interim/` — Temporary processing data
-- `datasets/processed/` — Final cleaned and processed data
+- `datasets/processed/` — Final cleaned and processed dataset
 - `database/` — MySQL database scripts
 - `documentation/` — Project documentation
 - `reports/` — Profiling and validation reports
 - `src/` — ETL, validation, profiling, and analytics modules
 - `tests/` — Project testing scripts
-- `logs/` — Pipeline and error logs
+
 
 ## Development Approach
 
