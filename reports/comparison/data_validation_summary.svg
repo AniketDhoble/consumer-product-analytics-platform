@@ -1,0 +1,414 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1200"
+        height="900"
+        viewBox="0 0 1200 900">
+
+        <rect width="1200" height="900" fill="#f7f9fc"/>
+
+        <rect
+            x="40"
+            y="40"
+            width="1120"
+            height="820"
+            rx="20"
+            fill="white"
+            stroke="#d9dee8"
+            stroke-width="2"/>
+
+        <text
+            x="70"
+            y="90"
+            font-family="Arial"
+            font-size="30"
+            font-weight="bold">
+            DATA VALIDATION SUMMARY
+        </text>
+
+        <text
+            x="70"
+            y="120"
+            font-family="Arial"
+            font-size="16">
+            Consumer &amp; Product Analytics Platform
+        </text>
+
+        <line
+            x1="70"
+            y1="145"
+            x2="1130"
+            y2="145"
+            stroke="#d9dee8"/>
+
+        <text
+            x="70"
+            y="185"
+            font-family="Arial"
+            font-size="18"
+            font-weight="bold">
+            RECORDS
+        </text>
+
+        <text
+            x="70"
+            y="220"
+            font-family="Arial"
+            font-size="16">
+            Before
+        </text>
+
+        <text
+            x="250"
+            y="220"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold">
+            100000
+        </text>
+
+        <text
+            x="450"
+            y="220"
+            font-family="Arial"
+            font-size="16">
+            After
+        </text>
+
+        <text
+            x="620"
+            y="220"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold">
+            100000
+        </text>
+
+        <text
+            x="70"
+            y="270"
+            font-family="Arial"
+            font-size="18"
+            font-weight="bold">
+            VALIDATION RESULTS
+        </text>
+
+        <text
+            x="70"
+            y="310"
+            font-family="Arial"
+            font-size="17"
+            font-weight="bold">
+            STRUCTURAL CHECKS
+        </text>
+        
+            <text
+                x="100"
+                y="345"
+                font-family="Arial"
+                font-size="15">
+                Blank Strings
+            </text>
+
+            <text
+                x="650"
+                y="345"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="345"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="375"
+                font-family="Arial"
+                font-size="15">
+                Duplicate Rows
+            </text>
+
+            <text
+                x="650"
+                y="375"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="375"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="405"
+                font-family="Arial"
+                font-size="15">
+                Missing Values
+            </text>
+
+            <text
+                x="650"
+                y="405"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="405"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+        <text
+            x="70"
+            y="455"
+            font-family="Arial"
+            font-size="17"
+            font-weight="bold">
+            CONSISTENCY CHECKS
+        </text>
+        
+            <text
+                x="100"
+                y="490"
+                font-family="Arial"
+                font-size="15">
+                Customer ID → Name
+            </text>
+
+            <text
+                x="650"
+                y="490"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="490"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="520"
+                font-family="Arial"
+                font-size="15">
+                Product ID → Name
+            </text>
+
+            <text
+                x="650"
+                y="520"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="520"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="550"
+                font-family="Arial"
+                font-size="15">
+                Product ID → Sub-Category
+            </text>
+
+            <text
+                x="650"
+                y="550"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="550"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="580"
+                font-family="Arial"
+                font-size="15">
+                Order Date > Ship Date
+            </text>
+
+            <text
+                x="650"
+                y="580"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="580"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+        <text
+            x="70"
+            y="630"
+            font-family="Arial"
+            font-size="17"
+            font-weight="bold">
+            BUSINESS RULE CHECKS
+        </text>
+        
+            <text
+                x="100"
+                y="665"
+                font-family="Arial"
+                font-size="15">
+                Invalid Discount
+            </text>
+
+            <text
+                x="650"
+                y="665"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="665"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="695"
+                font-family="Arial"
+                font-size="15">
+                Invalid Quantity
+            </text>
+
+            <text
+                x="650"
+                y="695"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="695"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="725"
+                font-family="Arial"
+                font-size="15">
+                Invalid Sales
+            </text>
+
+            <text
+                x="650"
+                y="725"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="725"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+            <text
+                x="100"
+                y="755"
+                font-family="Arial"
+                font-size="15">
+                Negative Profit
+            </text>
+
+            <text
+                x="650"
+                y="755"
+                font-family="Arial"
+                font-size="15">
+                0
+            </text>
+
+            <text
+                x="760"
+                y="755"
+                font-family="Arial"
+                font-size="15"
+                font-weight="bold">
+                PASS
+            </text>
+            
+        <line
+            x1="70"
+            y1="805"
+            x2="1130"
+            y2="805"
+            stroke="#d9dee8"/>
+
+        <text
+            x="70"
+            y="850"
+            font-family="Arial"
+            font-size="18"
+            font-weight="bold">
+            Result: DATA VALIDATION PASSED
+        </text>
+
+    </svg>
+    
